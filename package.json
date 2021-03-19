@@ -1,0 +1,27 @@
+{
+  "name": "ton-web-js-packed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SVOIcom/tonswap-frontend/issues"
+  },
+  "homepage": "https://github.com/SVOIcom/tonswap-frontend#readme",
+  "dependencies": {
+    "ton-client-web-js": "^0.28.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^4.5.0"
+  }
+}
