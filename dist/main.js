@@ -1115,7 +1115,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(Buffer) {/* harmony import */ var ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ton-client-web-js */ \"./node_modules/ton-client-web-js/index.js\");\n\n\nwindow.Buffer = Buffer;\n\nwindow.TONClient = ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__[\"TONClient\"];\n\nasync function init(){\n    let ton = await ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__[\"TONClient\"].create({\n        servers: ['net.ton.dev']\n    });\n    console.log(ton.abi);\n}\n\ninit();\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/buffer/index.js */ \"./node_modules/buffer/index.js\").Buffer))\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(Buffer) {/* harmony import */ var ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ton-client-web-js */ \"./node_modules/ton-client-web-js/index.js\");\n\n\nwindow.Buffer = Buffer;\n\nwindow.TONClient = ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__[\"TONClient\"];\n\nwindow.TONClient.setWasmOptions = ton_client_web_js__WEBPACK_IMPORTED_MODULE_0__[\"setWasmOptions\"];\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/buffer/index.js */ \"./node_modules/buffer/index.js\").Buffer))\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
